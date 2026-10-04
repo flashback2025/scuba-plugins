@@ -20,7 +20,7 @@
     "com.openai": {
       "interface": {
         "displayName": "Scuba",
-        "shortDescription": "Search your saved Captures and Collections, then save useful findings to Scuba.",
+        "shortDescription": "Find and save useful context",
         "longDescription": "Bring your saved context into your conversation. Search and read Captures and Collections, save notes and links, and organize useful findings in Scuba.",
         "developerName": "Scuba",
         "category": "Productivity",
@@ -36,7 +36,8 @@
           "Save this summary to Scuba as a text Capture."
         ],
         "composerIcon": "./assets/icon.png",
-        "logo": "./assets/icon.png"
+        "logo": "./assets/icon.png",
+        "supportURL": "https://scuba.app/support"
       }
     }
   },
