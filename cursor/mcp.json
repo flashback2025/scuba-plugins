@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "scuba": {
+      "url": "https://api.scuba.app/mcp/"
+    }
+  }
+}

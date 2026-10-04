@@ -1,0 +1,4 @@
+*.zip
+SHA256SUMS
+.env
+.env.*

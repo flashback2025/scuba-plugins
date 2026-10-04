@@ -1,0 +1,45 @@
+{
+  "name": "scuba",
+  "version": "0.1.0",
+  "description": "Search your saved Captures and Collections, then save useful findings to Scuba.",
+  "author": {
+    "name": "Scuba",
+    "email": "support@scuba.app",
+    "url": "https://scuba.app"
+  },
+  "homepage": "https://github.com/flashback2025/scuba-plugins",
+  "keywords": [
+    "scuba",
+    "search",
+    "research",
+    "captures",
+    "collections"
+  ],
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Scuba",
+        "shortDescription": "Search your saved Captures and Collections, then save useful findings to Scuba.",
+        "longDescription": "Bring your saved context into your conversation. Search and read Captures and Collections, save notes and links, and organize useful findings in Scuba.",
+        "developerName": "Scuba",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://scuba.app",
+        "privacyPolicyURL": "https://scuba.app/privacy",
+        "termsOfServiceURL": "https://scuba.app/terms",
+        "defaultPrompt": [
+          "Find the Capture about our onboarding decisions.",
+          "Save this summary to Scuba as a text Capture."
+        ],
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  },
+  "repository": "https://github.com/flashback2025/scuba-plugins",
+  "license": "MIT"
+}
